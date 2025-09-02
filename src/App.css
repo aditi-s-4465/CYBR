@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.rectangleContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  
+}
+
+.rectangleRed {
+  width: 16px;
+  height: 50px;
+  background: repeating-linear-gradient(
+    45deg,
+    #ff0000,
+    #ff0000 3px,
+    #ffffff 2px,
+    #ffffff 4px
+  );
+  border: 1px solid black;
+}
+
+.rectangleGreen {
+  width: 16px;
+  height: 50px;
+  background: repeating-linear-gradient(
+    135deg,
+    #089026,
+    #089026 3px,
+    #ffffff 2px,
+    #ffffff 4px
+  );
+  border: 1px solid black;
+  
+}
+.rectangleGrey {
+  width: 16px;
+  height: 50px;
+  background-color: grey;
+  border: 1px solid black;
+  
+}
+table {
+  width: 30%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #fbf9f9;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+th {
+  background-color: #685faa;
+  color: rgb(255, 255, 255);
+}
+
+tr:hover {
+  background-color: #c3b9d4;
+}
+
+th, td {
+  font-size: 14px;
+}
+button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#rectangleButton {
+  width: 175px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  border-radius: 0%;
+  font-size: 18px;
+}
+#rectangleButton:hover {
+  width: 175px;
+  height: 50px;
+  color: rgb(251, 251, 251);
+  background: #150202;
+  border-radius: 0%;
+  font-size: 18px;
+}
+#redButton {
+  background-color: #ff0000;
+  color: #150202;
+}
+#redButton:hover {
+  background: linear-gradient(45deg, #ff0000 25%, #ffffff 25%, #ffffff 50%, #ff0000 50%, #ff0000 75%, #ffffff 75%, #ffffff 100%);
+}
+
+#greenButton {
+  background-color: rgb(8, 144, 38);
+  color: #150202;
+}
+#greenButton:hover {
+  background: linear-gradient(135deg, #089026 25%, #ffffff 25%, #ffffff 50%, #089026 50%, #089026 75%, #ffffff 75%, #ffffff 100%);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b8c0c4; 
+}
